@@ -41,3 +41,4 @@ To replicate the report, please clone this repository, and run in Terminal
 ```
 $ make
 ```
+All output files are generated in folder obj/ including *.pdf, *.aux, *.bbl, *.log, *.out .
