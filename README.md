@@ -32,7 +32,7 @@ To replicate the algorithms, please clone this repository, go to Folder Examples
 To replicate the algorithms using pre-wrapped packages, please clone this repository, go to Folder Packages/Gibbs or /GBW,  and run example.ipynb<br/> 
 
 ## Reproduce Report
-To replicate the report, please clone this repository, and run in Terminal
+To replicate the report, please clone this repository, and under the working directory including latex source files, run in Terminal
 ```
 $ make
 ```
