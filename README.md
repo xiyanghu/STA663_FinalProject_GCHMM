@@ -5,12 +5,12 @@
 This repository contains the following files:
 
 ### ipython notebook files:
-AEMBP_GCHMM.ipynb: Optimized Generalized Baum-Welch (GBW), also called approximiate EM Belief Propogation (AEMBP) algorithm for for Graph-Coupled HMMs [fastest]
+Example_Optimized_AEMBP.ipynb: Optimized Generalized Baum-Welch (GBW), also called approximiate EM Belief Propogation (AEMBP) algorithm for for Graph-Coupled HMMs [fastest]
 
 AEMBP.ipynb: Unoptimized GBW (or AEMBP)
 
 
-Gibbs_GCHMM.ipynb: Optimized Gibbs Sampler algorithm for Graph-Coupled HMMs [fastest]<br />
+Example_Optimized_Gibbs.ipynb: Optimized Gibbs Sampler algorithm for Graph-Coupled HMMs [fastest]<br />
 Gibbs_numpy.ipynb: Numpy Gibbs Sampler with separate functions<br />
 Gibbs_cython.ipynb: cythonized Gibbs Sampler with separate functions<br />
 Gibbs_jit.ipynb: JIT version of Gibbs Sampler with separate functions<br />
@@ -30,9 +30,9 @@ Y: Observed states of the appearance of 6 symptoms per student per day <br/>
 true.png, missing02.png,...etc
 
 ## Reproduce Code
-# option1
+### option1
 To replicate the algorithm, please clone this repository, go to Folder Examples and run Example_Optimized_AEMBP.ipynb and Example_Optimized_Gibbs.ipynb
-# option2
+### option2
 
 
 ## Reproduce Report
