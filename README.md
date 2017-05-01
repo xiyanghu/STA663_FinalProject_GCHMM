@@ -1,6 +1,6 @@
 # STA663_FinalProject_GCHMM
 
-:sweat_smile: 
+:100: 
 
 Examples folder contains the following files:
 
