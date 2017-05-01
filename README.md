@@ -10,15 +10,11 @@ AEMBP_GCHMM.ipynb: Optimized Generalized Baum-Welch (GBW), also called approximi
 AEMBP.ipynb: Unoptimized GBW (or AEMBP)
 
 
-Gibbs_GCHMM.ipynb: Optimized Gibbs Sampler algorithm for Graph-Coupled HMMs [fastest]
-
-Gibbs_numpy.ipynb: Numpy Gibbs Sampler with separate functions
-
-Gibbs_cython.ipynb: cythonized Gibbs Sampler with separate functions
-
-Gibbs_jit.ipynb: JIT version of Gibbs Sampler with separate functions
-
-Gibbs_naive.ipynb: naive version of Gibbs Sampler with separate functions
+Gibbs_GCHMM.ipynb: Optimized Gibbs Sampler algorithm for Graph-Coupled HMMs [fastest] __ 
+Gibbs_numpy.ipynb: Numpy Gibbs Sampler with separate functions __ 
+Gibbs_cython.ipynb: cythonized Gibbs Sampler with separate functions __
+Gibbs_jit.ipynb: JIT version of Gibbs Sampler with separate functions __
+Gibbs_naive.ipynb: naive version of Gibbs Sampler with separate functions __
 
 
 ### Data sets:
