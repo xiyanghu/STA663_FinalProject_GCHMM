@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{dong2012graph}
+Wen Dong, Alex Pentland, and Katherine~A Heller.
+\newblock Graph-coupled hmms for modeling the spread of infection.
+\newblock {\em arXiv preprint arXiv:1210.4864}, 2012.
+
+\bibitem{fan2015bayesian}
+Kai Fan, Allison~E Aiello, and Katherine~A Heller.
+\newblock Bayesian models for heterogeneous personalized health data.
+\newblock {\em arXiv preprint arXiv:1509.00110}, 2015.
+
+\bibitem{pearl1988probabilistic}
+Judea Pearl.
+\newblock {\em Probabilistic reasoning in intelligent systems: networks of
+  plausible inference}.
+\newblock Morgan Kaufmann, 1988.
+
+\end{thebibliography}
