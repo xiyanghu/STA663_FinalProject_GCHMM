@@ -68,7 +68,7 @@ Duke University\\
 Durham, NC 27708 \\
 \texttt{yimeng.jia@duke.edu} \\
 \And
-Dewen Xu\thanks{The two repo's contain the same code, \textcolor{blue}{\url{https://github.com/dex001/Stat663-Final-Project}}} \\
+Dewen Xu \\
 Duke University \\
 Durham, NC 27708 \\
 \texttt{dewen.xu@duke.edu} \\
@@ -184,7 +184,7 @@ P(\mathbf{Y}_{n,1:T}, \mathbf{X}_{n,0:T})
 &= \boldsymbol{\pi}_0(X_{n,0})P(X_{n,1}|X_{n,0},\phi)P(Y_{n,1}|X_{n, 1}, \theta)\\
 &\prod_{t = 2}^{T} P(X_{n,t}|X_{n, t-1}, X_{n': \left \{ n',n \right \}\in E_{t-1},t-1}, \phi)P(Y_{n,t}|X_{n, t}, \theta)
 \end{align*}
-Thus, the posterior for $X$ and $Y$ (if missing value exits).
+Thus, the posterior for $X$.
 \begin{align*}
 X_{n,t+1}|{X,Y} \setminus X_{n,t+1;\mu} \sim \text{Categorical}\left( \frac{P(X_{n,t+1})}{\sum_{x}P(X_{n,t+1=x})}\right) \\
 %Y_{n,t,s} &\sim\\
@@ -205,7 +205,7 @@ $\gamma| X \sim \text{Beta}(a'' + \sum_{n,t:X_{n,t=1}}1_{\left \{ X_n,t+1=0 \rig
 1_{\left \{ X_{n,t+1=0} \right \}})$
 
 \subsection{Update parameters in emission distribution}
-$p(\boldsymbol{\theta_k}| Y) \sim \text{Beta}(., . )$ for k = 0, 1
+$p(\boldsymbol{\theta_{k,s}}| Y) \sim \text{Beta}(a_k + \sum \mathbb{I}_{Y_{n,t,s}=1, X_{n,t}=k}, b_k + + \sum \mathbb{I}_{Y_{n,t,s}=1, X_{n,t}=k})$, for $k = 0, 1$
 
 \section{Generalized Baum-Welch (GBW) Algorithm}
 

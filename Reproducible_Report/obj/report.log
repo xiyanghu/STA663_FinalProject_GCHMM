@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  1 MAY 2017 14:01
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  1 MAY 2017 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,11 +414,6 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 85.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
-[][]\OT1/ptm/m/n/9 The two repo's con-tain the same code, [][]$\OT1/pcr/m/n/9 h
-ttps : / / github . com / dex001 /
- []
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -439,7 +434,7 @@ File: HMM.png Graphic file (type QTm)
 File: CHMM.png Graphic file (type QTm)
  <use  "CHMM.png" >
 File: GCHMM.png Graphic file (type QTm)
- <use  "GCHMM.png" >
+ <use  "GCHMM.png" > [2]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 128.
 
 
@@ -448,13 +443,14 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
- [2] [3]
+
 Overfull \hbox (64.73846pt too wide) in paragraph at lines 168--168
 [] 
  []
 
+[3]
 File: EM_GCHMM.png Graphic file (type QTm)
-<use  "EM_GCHMM.png" >
+ <use  "EM_GCHMM.png" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 180.
@@ -467,17 +463,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 180.
 
-[4] [5]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
 Overfull \hbox (64.00354pt too wide) in paragraph at lines 236--236
 [] 
  []
 
-[6]
+[5]
 Overfull \hbox (101.55086pt too wide) in paragraph at lines 266--266
 [] 
  []
 
-[7] [8]
+
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+ [6]
+[7]
 File: true.png Graphic file (type QTm)
  <use  "true.png" >
 File: predicted.png Graphic file (type QTm)
@@ -489,15 +492,17 @@ Overfull \hbox (82.20634pt too wide) in paragraph at lines 331--343
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
 Overfull \hbox (102.51422pt too wide) in paragraph at lines 353--362
 []|  []
  []
 
 Missing character: There is no ’ in font ptmr7t!
 Missing character: There is no ’ in font ptmr7t!
-[9]
 File: FNR.png Graphic file (type QTm)
- <use  "FNR.png" >
+<use  "FNR.png" >
 File: missing02.png Graphic file (type QTm)
  <use  "missing02.png" >
 File: missing04.png Graphic file (type QTm)
@@ -516,12 +521,12 @@ Overfull \hbox (82.20634pt too wide) in paragraph at lines 379--400
 []  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+[9] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: Gibbs_naive.png Graphic file (type QTm)
 
 <use  "Gibbs_naive.png" >
@@ -529,12 +534,7 @@ Overfull \hbox (57.7591pt too wide) in paragraph at lines 424--425
  [][] 
  []
 
-
-Underfull \vbox (badness 1331) has occurred while \output is active []
-
- [10]
 File: Gibbs_jit.png Graphic file (type QTm)
-
 <use  "Gibbs_jit.png" >
 Overfull \hbox (57.7591pt too wide) in paragraph at lines 438--439
  [][] 
@@ -567,18 +567,14 @@ Overfull \hbox (86.21185pt too wide) in paragraph at lines 496--497
  [][] 
  []
 
-[13]
 File: AEMBP_revise_profile.png Graphic file (type QTm)
- <use  "AEMBP_revise_profile.png" >
+<use  "AEMBP_revise_profile.png" >
 Overfull \hbox (57.7591pt too wide) in paragraph at lines 509--510
  [][] 
  []
 
 File: AEMBP.png Graphic file (type QTm)
-<use  "AEMBP.png" >
-Underfull \vbox (badness 3323) has occurred while \output is active []
-
- [14]
+<use  "AEMBP.png" > [13] [14]
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 525.
 
 
@@ -620,10 +616,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 600.
 Here is how much of TeX's memory you used:
  11219 strings out of 493591
  155187 string characters out of 6143546
- 267555 words of memory out of 5000000
+ 272317 words of memory out of 5000000
  14478 multiletter control sequences out of 15000+600000
  18345 words of font info for 59 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 37i,19n,45p,1354b,1794s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,19n,45p,1354b,1792s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on obj/report.pdf (16 pages).
