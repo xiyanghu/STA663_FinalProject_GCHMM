@@ -30,7 +30,7 @@ true.png, missing02.png,...etc
 To replicate the algorithms, please clone this repository, go to Folder Examples and run Example_Optimized_AEMBP.ipynb and Example_Optimized_Gibbs.ipynb<br/> 
 ### option2
 To replicate the algorithms using pre-wrapped packages, please clone this repository, go to Folder Packages/Gibbs or /GBW,  and run example.ipynb<br/> 
-**Note**: Reproducing results under Packages Folder may not succeed in AWS server, but works well on PC. <br/> 
+***Note***: Reproducing results under Packages Folder may not succeed in AWS server, but works well on PC. <br/> 
 
 ## Reproduce Report
 To replicate the report, please clone this repository, and under the working directory including latex source files, run in Terminal
