@@ -27,9 +27,9 @@ true.png, missing02.png,...etc
 
 ## Reproduce Code
 ### option1
-To replicate the algorithms, please clone this repository, go to Folder Examples and run Example_Optimized_AEMBP.ipynb and Example_Optimized_Gibbs.ipynb<br/> 
+To replicate the algorithms, please clone this repository, go to Folder Examples and run `Example_Optimized_AEMBP.ipynb` and `Example_Optimized_Gibbs.ipynb` <br/> 
 ### option2
-To replicate the algorithms using pre-wrapped packages, please clone this repository, go to Folder Packages/Gibbs or /GBW,  and run example.ipynb<br/> 
+To replicate the algorithms using pre-wrapped packages, please clone this repository, go to Folder Packages/Gibbs or /GBW,  and run `example.ipynb` <br/> 
 ***Note***: Reproducing results under Packages Folder may not succeed in AWS server, but works well on PC. <br/> 
 
 ## Reproduce Report
