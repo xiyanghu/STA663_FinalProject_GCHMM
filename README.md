@@ -18,23 +18,22 @@ Gibbs_naive.ipynb: naive version of Gibbs Sampler with separate functions<br />
 
 
 ### Data sets:
-G: Dynamic social network graph (contains only upper triangular matrix) of 84 students in 107 days 
-dim: (84, 84, 107) 
-
-X: True latent states of infection 
-
-dim: (84, 108) 
-
-Y: Observed states of the appearance of 6 symptoms per student per day 
-
-dim: (84, 6, 107)    
+G: Dynamic social network graph (contains only upper triangular matrix) of 84 students in 107 days <br />
+   dim: (84, 84, 107) <br/>
+X: True latent states of infection <br/>
+   dim: (84, 108) <br/>
+Y: Observed states of the appearance of 6 symptoms per student per day <br/>
+   dim: (84, 6, 107) <br/> 
 
 
 ### Code generated pictures:
 true.png, missing02.png,...etc
 
 ## Reproduce Code
-To replicate the algorithm, please clone this repository, and run AEMBP_GCHMM.ipynb and Gibbs_GCHMM.ipynb
+# option1
+To replicate the algorithm, please clone this repository, go to Folder Examples and run Example_Optimized_AEMBP.ipynb and Example_Optimized_Gibbs.ipynb
+# option2
+
 
 ## Reproduce Report
 To replicate the report, please clone this repository, and run in Terminal
