@@ -16,7 +16,6 @@ Gibbs_naive.ipynb: naive version of Gibbs Sampler with separate functions
 
 ### Data sets:
 G: Dynamic social network graph (contains only upper triangular matrix) of 84 students in 107 days 
-
 dim: (84, 84, 107) 
 
 X: True latent states of infection 
