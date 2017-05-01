@@ -15,10 +15,10 @@ Gibbs_jit.ipynb: JIT version of Gibbs Sampler with separate functions
 Gibbs_naive.ipynb: naive version of Gibbs Sampler with separate functions
 
 ### Data sets:
-G: Dynamic social network graph (contains only upper triangular matrix) of 84 students in 107 days
-dim: (84, 84, 107)
-X: True latent states of infection 
-dim: (84, 108)
+G: Dynamic social network graph (contains only upper triangular matrix) of 84 students in 107 days\\
+dim: (84, 84, 107)\\
+X: True latent states of infection \\
+dim: (84, 108)\\
 Y: Observed states of the appearance of 6 symptoms per student per day
 dim: (84, 6, 107)   
 
