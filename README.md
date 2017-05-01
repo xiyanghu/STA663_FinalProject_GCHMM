@@ -6,13 +6,20 @@ This repository contains the following files:
 
 ### ipython notebook files:
 AEMBP_GCHMM.ipynb: Optimized Generalized Baum-Welch (GBW), also called approximiate EM Belief Propogation (AEMBP) algorithm for for Graph-Coupled HMMs [fastest]
+
 AEMBP.ipynb: Unoptimized GBW (or AEMBP)
 
+
 Gibbs_GCHMM.ipynb: Optimized Gibbs Sampler algorithm for Graph-Coupled HMMs [fastest]
+
 Gibbs_numpy.ipynb: Numpy Gibbs Sampler with separate functions
+
 Gibbs_cython.ipynb: cythonized Gibbs Sampler with separate functions
+
 Gibbs_jit.ipynb: JIT version of Gibbs Sampler with separate functions
+
 Gibbs_naive.ipynb: naive version of Gibbs Sampler with separate functions
+
 
 ### Data sets:
 G: Dynamic social network graph (contains only upper triangular matrix) of 84 students in 107 days 
